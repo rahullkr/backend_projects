@@ -14,15 +14,10 @@ function getCurrentTime() {
 function calculateTotalTime(startTime, endTime) {
   const start = dayjs(startTime);
   const end = dayjs(endTime);
-  return dayjs.duration(end.diff(start));
+  const val =  dayjs.duration(end.diff(start));
+  return val;
 }
 
+
 dayjs.extend(duration);
-// let startTime = dayjs().subtract(2, 'minutes'); 
-// let endTime = dayjs();
-
-// var value = calculateTotalTime(startTime, endTime);
-// console.log(value);
-// console.log(value.years(), value.months(), value.days(), value.hours(), value.minutes(), value.seconds());
-
 module.exports = { getCurrentTime, calculateTotalTime };

@@ -1,4 +1,4 @@
-const { saveTimeEntry, showTimeEntries } = require("../utils/saveTimeUtils");
+const { saveTimeEntry } = require("../utils/saveTimeUtils");
 const { getCurrentTime } = require("../utils/time");
 const chalk = require("chalk");
 

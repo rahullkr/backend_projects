@@ -17,7 +17,7 @@ async function reportCommand(project, options) {
 
     console.log(
       chalk.green(
-        `Total time spent on project ${project} = ${totalTime.hours()} hours: ${totalTime.minutes()} minutes: ${totalTime.seconds()} seconds`
+        `Total time spent on project ${project} = ${totalTime.hours()} hours: ${totalTime.minutes()} minutes.`
       )
     );
   } catch (error) {
