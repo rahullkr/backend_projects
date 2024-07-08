@@ -15,18 +15,18 @@ Freelance Time Tracker CLI is a command-line interface tool designed to help fre
 
 * ### Start a project timer
 ```
- freelance start <project_name>
+ freelancer start <project_name>
 ```
 
 * ### Stop a project timer
 ```
- freelance stop <project_name>
+ freelancer stop <project_name>
 ```
 * ### Show all project data
 ```
- freelance show 
+ freelancer show 
 ```
 * ### Generate a report
 ```
- freelance start <project_name>
+ freelancer start <project_name>
 ```
